@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cmd /c \"dir /b D:\\\\Ai-docs-agent\\\\.claude\")",
+      "Bash(cmd *)",
+      "Bash(Select-String -Pattern \"status\")",
+      "Bash(claude config *)",
+      "mcp__ide__getDiagnostics"
+    ]
+  }
+}
